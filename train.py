@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-from model.MCTEnet import TransformerConvClassifier
+from model.MCTnet import TransformerConvClassifier
 
 
 # =========================
@@ -21,8 +21,8 @@ from model.MCTEnet import TransformerConvClassifier
 # =========================
 class Config:
     csv_path = "./data/dataset.csv"
-    feature_start = 2
-    feature_end = 9
+    feature_start = 0
+    feature_end = 7
     label_col = -1
 
     batch_size = 32
