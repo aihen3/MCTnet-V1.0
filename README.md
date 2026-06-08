@@ -17,7 +17,7 @@ MCTNet
 
 ├── model                  # Model definition
 
-└── MCTEnet.py
+└── MCTnet.py
 
 ├── scaler                 # Saved StandardScaler
 
